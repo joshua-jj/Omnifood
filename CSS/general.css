@@ -29,6 +29,7 @@ Paragraph default: 1.6
 - Shades: #cf711f;
 - Accents:
 - Greys
+#6f6f6f (lightest grey allowed on #fdf2e9)
 #555
 #333
 
@@ -193,6 +194,10 @@ body {
 
 .margin-bottom-md {
   margin-bottom: 4.8rem !important;
+}
+
+.center-text {
+  text-align: center;
 }
 
 strong {

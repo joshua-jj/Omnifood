@@ -1,1 +1,1 @@
-A recreation of omnifood's website (https://omnifood.dev/)
+A recreation of omnifood's landing page (https://omnifood.dev/)
