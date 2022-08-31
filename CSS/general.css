@@ -16,6 +16,7 @@ Default: 1
 Small: 1.05
 Medium: 1.2
 Paragraph default: 1.6
+Large: 1.8
 
 - Letter spacing
 -0.5px
@@ -24,7 +25,6 @@ Paragraph default: 1.6
 --- 02 COLORS
 
 - Primary: #e67e22;
-fbtn--form
 - Tints: #eb984e
 - Shades: 
 #cf711f
@@ -61,6 +61,7 @@ Default: 9px
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -69,6 +70,7 @@ body {
   font-weight: 400;
   color: #555;
   font-family: "Rubik", sans-serif;
+  overflow-x: hidden;
 }
 
 /**************************************/
@@ -101,10 +103,6 @@ body {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
-}
-
-.grid--5-cols {
-  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--center-v {
