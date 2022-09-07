@@ -417,20 +417,20 @@
               <h2 class="heading-secondary">We offer a free sample meal!</h2>
               <p class="cta-text">Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!</p>
 
-              <form class="cta-form" action="#">
+              <form class="cta-form" name="contact" netlify>
                 <div class="input-container">
                   <label for="full-name"></label>
-                  <input id="ful-name" type="text" placeholder="John Smith" required>
+                  <input id="ful-name" type="text" placeholder="John Smith" name="full-name" required>
                 </div>
 
                 <div class="input-container">
                   <label for="email"></label>
-                  <input id="email" type="email" placeholder="me@example.com" required>
+                  <input id="email" type="email" placeholder="me@example.com" name="email" required>
                 </div>
 
                 <div class="input-container">
                   <label for="select-where">Where did you hear from us?</label>
-                  <select id="select-where" required>
+                  <select id="select-where" name="select-where" required>
                   <option value="">Please choose an option</option>
                   <option value="friends">Friends and family</option>
                   <option value="youtube">YouTube video</option>
